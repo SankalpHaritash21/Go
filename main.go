@@ -5,6 +5,7 @@ import "fmt"
 func main() {
     fmt.Println("Hello, World!")
     printArrays()
+    Initialization()
 }
 
 //? Line 1: In Go, every program is part of a package. We define this using the package keyword. In this example, the program belongs to the main package.
