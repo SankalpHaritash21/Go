@@ -27,4 +27,18 @@ func main() {
 	// Printing the original and modified slices
 	fmt.Println("Original numbers:", numbers)
 	fmt.Println("Modified numbers:", modifiedNumbers)
+
+
+		// Creating a slice with make
+	slice := make([]int, 5) // Creating a slice of int with length 5
+	fmt.Println("Slice:", slice)
+
+	// Modifying the slice
+	for i := range slice {
+		slice[i] = i * 2 // Assigning values to each element of the slice
+	}
+
+	fmt.Println("Modified Slice:", slice)
+	
 }
+
